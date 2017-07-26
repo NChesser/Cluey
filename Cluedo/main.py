@@ -2,7 +2,8 @@ from setup import SetUp
 
 #Cluedo Game
     
-def game(times=50):
+def game(times=100):
+    #adding a comment here to test
     rounds = 0
     for i in range(0, times):        
         new_game = SetUp(6)
